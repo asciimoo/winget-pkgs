@@ -1,0 +1,15 @@
+# Created with WinGet Releaser using komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: asciimoo.hister
+PackageVersion: 0.15.0
+InstallerType: portable
+Commands:
+- hister
+ReleaseDate: 2026-06-03
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/asciimoo/hister/releases/download/v0.15.0/hister_0.15.0_windows_amd64.exe
+  InstallerSha256: D7C96C33977AF9CB40D3E3E29EA1E8EA4C96212F3FA849E57530A3D29BCD2E07
+ManifestType: installer
+ManifestVersion: 1.12.0
